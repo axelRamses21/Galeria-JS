@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Galeria</title>
+</head>
+
+<body id="cuerpo">
+    <div class="container-fluid">
+        <div class="row" id="contenedorGaleria">
+            <div class="row" id="titulo">
+                <p><b>GALERÍA.</b></p>
+            </div>
+            <div class="row" id="contenedorImg">
+                <canvas id="canvasImg"></canvas>
+            </div>
+            <div id="botones">
+                <button type="button" id="btnAnterior">Anterior</button>
+                <button type="button" id="btnSiguiente">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <template id="plantillaImg">
+        <img src="img/1.jpeg" alt="img1" id="img1">
+        <img src="img/2.jpeg" alt="img2" id="img2">
+        <img src="img/3.jpeg" alt="img3" id="img3">
+        <img src="img/4.jpeg" alt="img4" id="img4">
+        <img src="img/5.jpeg" alt="img5" id="img5">
+        <img src="img/6.jpeg" alt="img6" id="img6">
+        <img src="img/7.jpeg" alt="img7" id="img7">
+        <img src="img/8.jpeg" alt="img8" id="img8">
+        <img src="img/9.jpeg" alt="img9" id="img9">
+        <img src="img/10.jpeg" alt="img10" id="img10">
+    </template>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/control.js"></script>
+
+</body>
+</html>
